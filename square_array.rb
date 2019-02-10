@@ -1,7 +1,6 @@
-def square_array(array)
+def square_array(number)
   # your code here
-  array.each do |number|
+  number.each do |number|
     (2*(array))
   end
-  array.map!
 end
