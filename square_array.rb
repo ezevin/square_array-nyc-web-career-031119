@@ -3,4 +3,5 @@ def square_array(number)
   number.each do |number|
     (2*(number))
   end
+  number.map!
 end
